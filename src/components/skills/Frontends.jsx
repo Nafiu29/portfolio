@@ -1,4 +1,4 @@
-export default function Backend() {
+export default function Frontends() {
   return (
     <div className='skills_content'>
       <h3 className='skills_title'>Tools</h3>
@@ -6,7 +6,7 @@ export default function Backend() {
       <div className='skills_box'>
         <div className='skills_group'>
           <div className='skills_data'>
-            <i className='bx bx-badge-ckeck'></i>
+            <i className='bx bx-badge-ckeck'>I</i>
 
             <div>
               <h3 className='skills_name'> HTML</h3>

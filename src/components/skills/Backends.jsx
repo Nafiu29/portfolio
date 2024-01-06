@@ -1,4 +1,4 @@
-export default function Frontend() {
+export default function Backends() {
   return (
     <div className='skills_content'>
       <h3 className='skills_title'>Tools</h3>
