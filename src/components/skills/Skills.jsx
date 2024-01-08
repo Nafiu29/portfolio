@@ -1,5 +1,4 @@
-import Backends from './Backends';
-import Frontends from './Frontends';
+import Tools from './Tools';
 import './Skills.css';
 
 export default function Skills() {
@@ -9,8 +8,7 @@ export default function Skills() {
       <span className='section_subtitle'>My technical skills</span>
 
       <div className='skills_container container grid'>
-        <Frontends />
-        <Backends />
+        <Tools />
       </div>
     </section>
   );

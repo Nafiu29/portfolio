@@ -1,5 +1,5 @@
 .skills_container {
-  grid-template-columns: repeat(2, 350px);
+  grid-template-columns: 800px;
   column-gap: 3rem;
   justify-content: center;
 }
@@ -60,9 +60,6 @@
 }
 
 /* For medium devices */
-@media screen and (max-width: 768px) {
-}
-
 @media screen and (max-width: 576px) {
   .skills_container {
     grid-template-columns: 1fr;
@@ -76,7 +73,7 @@
 /* For small devices */
 @media screen and (max-width: 350px) {
   .skills_box {
-    column-gap: 1.5rem;
+    column-gap: 1.25rem;
   }
 
   .skills_name {
