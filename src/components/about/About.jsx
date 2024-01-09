@@ -1,5 +1,5 @@
 import AboutImg from '../../assets/profile.jpg';
-import CV from '../../assets/John-Cv.pdf';
+import CV from '../../assets/Nafiu - Resume.pdf';
 import './About.css';
 import Info from './Info';
 import { usePersonal } from '../../hooks/usePersonal';
