@@ -1,0 +1,22 @@
+[
+  {
+    "email": "nafiu2911@gmail.com",
+    "whatsapp": "0905 5400 421",
+    "github": "https://github.com/Nafiu29",
+    "facebook": "placeholder",
+    "indeed": "placeholder"
+  },
+  {
+    "name": "abdullahi Nafiu",
+    "profession": "Frontend Egineer",
+    "intro": "I am creative engineer at lagos, nigeria, and I am very passionate and dedicated to my work."
+  },
+  {
+    "about": [
+      { "icon": "E", "progress": "Experience", "completion": "0 year" },
+      { "icon": "P", "progress": "Projects", "completion": "1 complted" },
+      { "icon": "S", "progress": "Support", "completion": "online 24/7" }
+    ],
+    "role": "As a frontend engineer, I create UI application on stand alone or integrate it with an existing API services to hydrate the client application for interactivity and data collection."
+  }
+]

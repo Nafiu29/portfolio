@@ -15,6 +15,10 @@
   column-gap: 1rem;
 }
 
+.nav_logo {
+  font-size: 2rem;
+}
+
 .nav_logo,
 .nav_toggle {
   color: var(--title-color);

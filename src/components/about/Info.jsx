@@ -1,23 +1,17 @@
+import { usePersonal } from '../../hooks/usePersonal';
+
 export default function Info() {
+  const { personal } = usePersonal();
+
   return (
     <div className='about_info grid'>
-      <div className='about_box'>
-        <i className='bx bx-award about_icon'>O</i>
-        <h3 className='about_title'>Experiance</h3>
-        <span className='about_subtitle'>1 Year</span>
-      </div>
-
-      <div className='about_box'>
-        <i className='bx bx-briefcase-alt  about_icon'>B</i>
-        <h3 className='about_title'>Projects</h3>
-        <span className='about_subtitle'>1 Project completed</span>
-      </div>
-
-      <div className='about_box'>
-        <i className='bx bx-support  about_icon'>S</i>
-        <h3 className='about_title'>Support</h3>
-        <span className='about_subtitle'>Online 24/7</span>
-      </div>
+      {personal[2].about.map((a, i) => (
+        <div key={i} className='about_box'>
+          <i className='bx bx-award about_icon'>{a.icon}</i>
+          <h3 className='about_title'>{a.progress}</h3>
+          <span className='about_subtitle'>{a.completion}</span>
+        </div>
+      ))}
     </div>
   );
 }

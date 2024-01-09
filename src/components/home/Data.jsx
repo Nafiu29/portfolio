@@ -1,8 +1,12 @@
+import { usePersonal } from '../../hooks/usePersonal';
+
 export default function Data() {
+  const { personal } = usePersonal();
+
   return (
     <div className='home_data'>
       <h1 className='home_title'>
-        Abdullahi Nafiu{' '}
+        {personal[1].name}
         <svg
           width='36'
           height='36'
@@ -53,11 +57,8 @@ export default function Data() {
           ></path>
         </svg>
       </h1>
-      <h3 className='home_subtitle'>Frontend Engineer</h3>
-      <p className='home_description'>
-        I am creative engineer in Lagos, Nigeria and I am very passionate and
-        dedicated to my work.
-      </p>
+      <h3 className='home_subtitle'>{personal[1].profession}</h3>
+      <p className='home_description'>{personal[1].intro}</p>
       <a href='#contact' className='button button-flex'>
         {' '}
         Say Hello{' '}

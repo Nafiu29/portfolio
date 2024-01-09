@@ -38,7 +38,23 @@ export default function ScrollDown() {
           ></path>
         </svg>
         <span className='home_scroll-name'>Scroll Down</span>
-        <i className='uil uil-arrow-down home_scroll-arrow'>i</i>
+        <i className='uil uil-arrow-down home_scroll-arrow'>
+          <svg
+            width='20px'
+            height='20px'
+            viewBox='0 0 24 24'
+            fill='none'
+            xmlns='http://www.w3.org/2000/svg'
+          >
+            <path
+              d='M12 4L12 20M12 20L18 14M12 20L6 14'
+              stroke='#000'
+              strokeWidth='1.5'
+              strokeLinecap='round'
+              strokeLinejoin='round'
+            />
+          </svg>
+        </i>
       </a>
     </div>
   );

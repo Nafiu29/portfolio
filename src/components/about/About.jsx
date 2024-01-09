@@ -2,8 +2,11 @@ import AboutImg from '../../assets/profile.jpg';
 import CV from '../../assets/John-Cv.pdf';
 import './About.css';
 import Info from './Info';
+import { usePersonal } from '../../hooks/usePersonal';
 
 export default function About() {
+  const { personal } = usePersonal();
+
   return (
     <section className='about section' id='about'>
       <h2 className='section_title'>About Me</h2>
@@ -15,11 +18,7 @@ export default function About() {
         <div className='about_data'>
           <Info />
 
-          <p className='about_description'>
-            As a frontend engineer, I create UI application on stand alone or
-            integrate it with an existing API services to hydrate the client
-            application for interactivity or data collection.
-          </p>
+          <p className='about_description'>{personal[2].role}</p>
           <a download='' href={CV} className='button button-flex'>
             Download CV{' '}
             <svg

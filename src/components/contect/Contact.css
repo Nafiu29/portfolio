@@ -104,12 +104,9 @@
     row-gap: 3rem;
   }
 
-  .contact_info {
-    justify-content: center;
-  }
-
+  .contact_info,
   .contact_Illustrtion {
-    margin: 0 auto;
+    justify-content: center;
   }
 }
 
@@ -119,10 +116,18 @@
   }
 
   .contact_Illustrtion {
-    width: 100%;
+    width: 576px;
   }
 }
 
 /* For small devices */
 @media screen and (max-width: 350px) {
+  .contact_info {
+    width: 350;
+    height: 314;
+  }
+
+  .contact_Illustrtion {
+    width: 350px;
+  }
 }
